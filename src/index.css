@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
     font-family: 'Inter';
     scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: disc;
+} */
+
+
+/* --- SCROLL SNAP RULES --- */
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity; 
+}
+
+main > * {
+    scroll-snap-align: start;
+    min-height: 100vh;
 }
