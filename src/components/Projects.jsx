@@ -17,7 +17,7 @@ const Projects = () => {
             <h1 className='text-3xl font-semibold'>Psychotherapy Mobile App</h1>
             <h3 className='text-2xl text-gray-700'>Imperial College London, AHD</h3>
             <br /><img
-              src="/public/sat_project.png"
+              src="/sat_project.png"
               className="rounded-lg w-60 h-auto mx-auto block"
               alt="Psychotherapy App Screenshot"
             /><br />
@@ -35,7 +35,7 @@ const Projects = () => {
             <h1 className='text-3xl font-semibold'>Gamified Storytelling App</h1>
             <h3 className='text-2xl text-gray-700'>Amazon Web Services (AWS), UEP</h3>
             <br /><img
-              src="/public/noko_project.png"
+              src="/noko_project.png"
               className="rounded-lg w-60 h-auto mx-auto block"
               alt="Noko App Screenshot"
             /><br />

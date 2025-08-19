@@ -49,7 +49,7 @@ const Home = () => {
 
               {/* Resume Button */}
               <a
-                href="/public/GwynethPhang_Resume.pdf"
+                href="/GwynethPhang_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

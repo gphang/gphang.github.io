@@ -8,7 +8,7 @@ const Education = () => {
       <div className='flex flex-col md:flex-row items-center gap-8 md:gap-16'>
         <div className='hidden md:block flex-shrink-0'>
           <img 
-            src="/public/icl_logo.png"
+            src="/icl_logo.png"
             className='w-[100px] h-[100px]
             rounded-full object-cover shadow-lg' 
           />
@@ -29,7 +29,7 @@ const Education = () => {
       <div className='flex flex-col md:flex-row items-center gap-8 md:gap-16'>
         <div className='hidden md:block flex-shrink-0'>
           <img 
-            src="/public/umich_logo.jpeg"
+            src="/umich_logo.jpeg"
             className='w-[100px] h-[100px]
             rounded-full object-cover shadow-lg' 
           />
