@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
     return (
-        <div id='experience' className='flex min-h-screen w-full flex-col items-center justify-center gap-20  p-14 md:p-20 lg:p-36'>
+        <div id='experience' className='min-h-screen w-full flex flex-col gap-20 p-10 md:p-16 xl:p-32'>
             <h1 className='text-center text-5xl font-light'>Experience</h1>
 
             <div className="flex flex-wrap gap-0 md:flex-nowrap md:gap-10">
