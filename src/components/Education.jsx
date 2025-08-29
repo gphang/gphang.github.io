@@ -46,6 +46,21 @@ const Education = () => {
         </div>
       </div>
 
+      <div className='text-left space-y-2'>
+        <h1 className='text-3xl font-semibold'>Certifications and Skills</h1>
+        <ul className='text-m text-gray-600 list-disc pl-5'>
+          <li>UBS LEADS Program: Led startup pitch for MVP (business modelling, competitive analysis, investor relations)</li>
+          <li>Google User Experience Design Professional Cert: UX research, create wireframes, low & high-fidelity prototypes</li>
+          <li>Programming Languages: C++, C#, C, Python, GLSL, JavaScript, HTML, SQL, Datalog, R</li>
+          <li>Technologies: VSCode, Xcode, Unity, OpenGL, Azure, AWS, Docker, PostgreSQL, BQuant, Tableau, IBM SPSS Statistics</li>
+          <li>Foreign Languages: Mandarin, Cantonese, Japanese</li>
+        </ul>
+      </div>
+
+      {/* <div className='text-left space-y-2'>
+        
+      </div> */}
+
     </div>
   )
 }

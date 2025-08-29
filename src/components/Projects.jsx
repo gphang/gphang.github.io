@@ -26,7 +26,7 @@ const Projects = () => {
         </a>
 
         <a 
-          href="https://github.com/ongsici/noko" 
+          href="https://github.com/gphang/noko-web" 
           target="_blank" 
           rel="noopener noreferrer"
         >
