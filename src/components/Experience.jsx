@@ -10,6 +10,20 @@ const Experience = () => {
                 <div className="flex1">
 
                     <div className="relative space-y-1 border-l-2 p-8 text-left">
+                        <h3 className='text-xl font-semibold md:text-2xl'>Improbable (Somnia)</h3>
+                        <p className='font-light text-lg text-gray-600'>Software Engineer</p>
+                        <ul className='text-sm text-gray-600 list-disc pl-5'>
+                            <li>Developed database writer (Go) for a DEX (decentralised exchange) handling 5,000 TPS, implementing multi-tier storage across GCP Cloud SQL, QuestDB, and Redis; subsequently reduced p95 query latency from 1,000ms to 3ms</li>
+                            <li>Advanced backend correctness by extending integration testing; identified & resolved latent data consistency issues</li>
+                            <li>Architected a daily yield distribution engine (Cloud Run) processing ~860,000 blocks (incentivises liquidity depth); implemented batch processing for memory efficiency & service reliability at high-volume data ingestion</li>
+                            <li>Engineered observability suite with structured GCP Cloud Logging & Slack alerting, with liveness/readiness probes</li>
+                            <li>Led full product lifecycle of internal monitoring suite: from UX design & React implementation, to BFF (Backend-for-Frontend) service for securely bridging Vercel deployment with private GCP VPC resources</li>
+                            <li>Provisioned infrastructure & CI/CD (Terraform, Docker, GHA); implemented automated, IAM-compliant workflows</li>
+                        </ul>
+                        <span className='absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-[#91be9f]'></span>
+                    </div>
+
+                    <div className="relative space-y-1 border-l-2 p-8 text-left">
                         <h3 className='text-xl font-semibold md:text-2xl'>Primas Asset Management</h3>
                         <p className='font-light text-lg text-gray-600'>Fixed Income Intern</p>
                         <ul className='text-sm text-gray-600 list-disc pl-5'>
